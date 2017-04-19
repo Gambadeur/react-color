@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+.App {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+input{
+  width: 10%;
+  margin-bottom: 40px;
+}
+
+button{
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 20px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+.transformContainer{
+  font-family: 'Lato', sans-serif;
+  display: flex;
+
+}
+
+.listColor{
+  width: 50%;
+}
+
+.formColor{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0px;
+  background-color: #2B4D99;
+  letter-spacing: 1px;
+  font-size: 2em;
+}
+
+.formColor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.formColor form input{
+  width: 200px;
+}
+
+.formColor form legend{
+  padding: 40px;
+}
+
+
+.formColor button{
+  background-color: #FE532E;
+}
+
+
+.sketch-picker {
+  margin-left: 20%;
+}
+
