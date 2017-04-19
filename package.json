@@ -2,7 +2,7 @@
   "name": "React-Color",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://gambadeur.github.io/react-color",
   "devDependencies": {
     "eslint": "^3.18.0",
     "eslint-config-google": "^0.7.1",
